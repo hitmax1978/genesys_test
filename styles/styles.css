@@ -1,0 +1,142 @@
+/* Common styles*/
+.tpl {  /*Any template*/
+    display: none;
+}
+
+.v-container {  /* Vertical - align - container*/
+    display:table;
+    width:100%;
+}
+
+.v-center { /*vertically-centered item*/
+    display:table-cell;
+    vertical-align: middle;
+}
+
+.full-width { /*full width block*/
+    width:100%;
+}
+/*App components styles*/
+.search-bar {
+    position: absolute;
+    left:0;
+    top:0;
+    width:40%;
+    height:40px;
+    padding:10px;
+    border-right: 1px solid #E4E4E4;
+    box-sizing: border-box;
+}
+.search-bar input {
+    width:100%;
+}
+
+.contact-list {
+    position: absolute;
+    top:40px;
+    left:0;
+    bottom:0;
+    width:40%;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom: 60px;
+    overflow-y: auto;
+    border-right: 1px solid #E4E4E4;
+    box-sizing: border-box;
+}
+
+.cl-item-active {
+    background-color: #E4E4E4;
+}
+
+.cl-footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:60px;
+    width:40%;
+    box-sizing: border-box;
+    border-top: 1px solid #E4E4E4;
+    vertical-align: middle;
+    text-align: center;
+    border-right: 1px solid #E4E4E4;
+}
+
+.contact-list-item {
+    padding-left:10px;
+    padding-right:10px;
+    cursor:pointer;
+    cursor:hand;
+}
+
+.cli-first-name {
+    display:inline-block;
+    font-weight:bolder;
+}
+.cli-last-name {
+    display:inline-block;
+    font-weight:bolder;
+}
+.contact-card {
+    position: absolute;
+    top:0;
+    right:0;
+    left:40%;
+    bottom:0;
+    box-sizing: border-box;
+    background-color:#E4E4E4;
+    display: none;
+}
+
+.contact-card .form-control-plaintext {
+    background-color:transparent;
+    padding-top:0;
+}
+
+.cc-header {
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    height:40px;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.cc-content {
+    padding:10px;
+    position: absolute;
+    top:40px;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.cc-item {
+    margin-top:10px;
+}
+
+.spn-full-name {
+    font-size:170%;
+}
+
+.login-form {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: white;
+    z-index:1;
+}
+
+.login-form form {
+    position:fixed;
+    left:30%;
+    top:30%;
+    right:30%;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+    padding:20px;
+    display: none;
+}
