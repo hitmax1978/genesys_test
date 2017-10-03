@@ -101,7 +101,7 @@ define(['component','request'],function(component,Request) {
         // sends request to remove current contact
         var remove = function() {
             var request = new Request();
-            if (window.confirm('Really?'))
+            if (window.confirm('Sure?'))
                 request.post('scripts/php/removeContact.php',{'id':contact.id},handleContactRemoving);
         }
 
